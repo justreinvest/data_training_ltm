@@ -1,8 +1,0 @@
-include:
-  - "*.pbix"
-  - "*.docx"
-  - "*.pdf"
-  - "*.xlsx"
-  - downloads
-
-  
