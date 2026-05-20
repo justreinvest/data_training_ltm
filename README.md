@@ -1,7 +1,8 @@
 # Learning the Macleay & Partners Data Fundamentals training
 A space for Learning the Macleay's Data Training Resources
 
-Training resources developed and provided by the JRNSW Data Hub
+
+Training resources developed and provided by the JRNSW Data Hub:
 
 <a href="/downloads/Pre Training Prep.docx" download>Pre-training Prep (doc)</a> - how to donwload and install Power BI.
   
