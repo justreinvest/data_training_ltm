@@ -6,7 +6,7 @@ Training resources developed and provided by the JRNSW Data Hub:
 
 <a href="/downloads/Pre Training Prep.docx" download>Pre-training Prep (doc)</a> - how to donwload and install Power BI.
   
-<a href="/downloads/Data Fundamentals Training.pdf" download>Main Slide Deck: Data Fundamentals Training (PDF)</a> - a PDF of the Data Fundamentals slides that we covered in Day 1.
+<a href="/downloads/data-fundamentals-training.pdf" download>Main Slide Deck: Data Fundamentals Training (PDF)</a> - a PDF of the Data Fundamentals slides that we covered in Day 1.
 
 <a href="/downloads/Excel Basics.pdf" download>Excel Basics Slide Deck: An overview of key Excel operations(PDF)</a>
 Note: we didn't walk through this deck during our training session; we got right into working up an example. But the deck is here for you as a reference.
