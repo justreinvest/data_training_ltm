@@ -1,33 +1,301 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Learning the Macleay & Partners Data Fundamentals Training</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning the Macleay &amp; Partners Data Fundamentals Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f6fa;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e4e6ef;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    header img {
+      height: 56px;
+      width: auto;
+    }
+
+    header .header-text h1 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1.3;
+    }
+
+    header .header-text p {
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin-top: 2px;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 48px auto;
+      padding: 0 24px;
+    }
+
+    .intro {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 32px;
+      border: 1px solid #e4e6ef;
+    }
+
+    .intro p {
+      font-size: 0.95rem;
+      color: #374151;
+      line-height: 1.7;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9ca3af;
+      margin-bottom: 14px;
+    }
+
+    .resource-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .resource-card {
+      background: #ffffff;
+      border: 1px solid #e4e6ef;
+      border-radius: 10px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      transition: box-shadow 0.15s ease, border-color 0.15s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .resource-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      border-color: #c7d2fe;
+    }
+
+    .resource-icon {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+
+    .icon-pdf  { background: #fef2f2; }
+    .icon-docx { background: #eff6ff; }
+    .icon-pbix { background: #f0fdf4; }
+    .icon-xlsx { background: #f0fdf4; }
+
+    .resource-body { flex: 1; min-width: 0; }
+
+    .resource-body strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+    }
+
+    .resource-body span {
+      font-size: 0.85rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+
+    .resource-body .note {
+      margin-top: 6px;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      font-style: italic;
+    }
+
+    .badge {
+      flex-shrink: 0;
+      align-self: center;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: 20px;
+      background: #f3f4f6;
+      color: #6b7280;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.8rem;
+      color: #9ca3af;
+    }
+  </style>
 </head>
 <body>
-  <h1>Learning the Macleay & Partners Data Fundamentals Training</h1>
-  <p>A space for Learning the Macleay's Data Training Resources</p>
-  <p>Training resources developed and provided by the JRNSW Data Hub:</p>
 
-<a href="downloads/pre-training-prep.docx" download>Pre-training Prep (doc)</a> - how to download and install Power BI.
-  
-<a href="downloads/data-fundamentals-training.pdf" download>Main Slide Deck: Data Fundamentals Training (PDF)</a> - a PDF of the Data Fundamentals slides that we covered in Day 1.
+  <header>
+    <img src="jr-data-logo-1.webp" alt="JRNSW Data Hub logo">
+    <div class="header-text">
+      <h1>Macleay &amp; Partners — Data Fundamentals Training</h1>
+      <p>Training resources developed and provided by the JRNSW Data Hub</p>
+    </div>
+  </header>
 
-<a href="downloads/excel-basics.pdf" download>Excel Basics Slide Deck: An overview of key Excel operations(PDF)</a>
-Note: we didn't walk through this deck during our training session; we got right into working up an example. But the deck is here for you as a reference.
+  <main>
 
-<a href="downloads/good-graph-bad-graph.pdf" download>Good Graph Bad Graph! (PDF)</a> – a look at some good, and some not so good, graphs.
+    <div class="intro">
+      <p>Welcome! Below you'll find all the materials from the Data Fundamentals Training sessions. Download what you need, work through them at your own pace, and refer back any time.</p>
+    </div>
 
-<a href="downloads/power-bi-dashboards.docx" download>Power BI Dashboards.docx</a> – the Power BI training material from Days 2 and 3
+    <p class="section-label">Training Resources</p>
 
-<a href="downloads/preparing-bocsar-lga-dataset-as-semantic-model.docx" download>Preparing BOCSAR LGA dataset as Semantic Model.docx</a>  – the step-by-step guide to transforming the BOCSAR LGA file into something that you can use to make dashboards.
+    <ul class="resource-list" style="list-style:none;">
 
-<a href="downloads/privacy-in-practice.docx" download>Privacy in Practice.docx</a> – the Office of the Australian Information Commission’s course as a word doc. But do the training online to get a certificate! You can access the online training here: https://www.oaic.gov.au/engage-with-us/research-and-training-resources/e-learning/privacy-in-practice
+      <li>
+        <a class="resource-card" href="downloads/pre-training-prep.docx" download>
+          <div class="resource-icon icon-docx">📄</div>
+          <div class="resource-body">
+            <strong>Pre-training Prep</strong>
+            <span>How to download and install Power BI — complete this before the sessions.</span>
+          </div>
+          <span class="badge">DOCX</span>
+        </a>
+      </li>
 
-<a href="downloads/service-mapping.pbix" download>Service Mapping.pbix</a> – the Power BI dashboards we created
+      <li>
+        <a class="resource-card" href="downloads/data-fundamentals-training.pdf" download>
+          <div class="resource-icon icon-pdf">📕</div>
+          <div class="resource-body">
+            <strong>Main Slide Deck: Data Fundamentals Training</strong>
+            <span>The full slide deck covering everything from Day 1.</span>
+          </div>
+          <span class="badge">PDF</span>
+        </a>
+      </li>
 
-<a href="downloads/service-mapping.xlsx" download>Service Mapping.xlsx</a> – the Excel file with sample data, in case you’re using this instead of the Semantic Model
+      <li>
+        <a class="resource-card" href="downloads/excel-basics.pdf" download>
+          <div class="resource-icon icon-pdf">📕</div>
+          <div class="resource-body">
+            <strong>Excel Basics Slide Deck</strong>
+            <span>An overview of key Excel operations.</span>
+            <span class="note">We didn't walk through this deck in the session — we jumped straight into a working example. It's here as a handy reference.</span>
+          </div>
+          <span class="badge">PDF</span>
+        </a>
+      </li>
 
-<a href="downloads/using-the-service-mapping-power-bi-and-excel-files.docx" download>Using the Service Mapping Power BI and Excel files.docx</a> – how to get the Service Mapping Power BI file to use that Excel file as a source
+      <li>
+        <a class="resource-card" href="downloads/good-graph-bad-graph.pdf" download>
+          <div class="resource-icon icon-pdf">📕</div>
+          <div class="resource-body">
+            <strong>Good Graph, Bad Graph!</strong>
+            <span>A look at some effective — and not-so-effective — data visualisations.</span>
+          </div>
+          <span class="badge">PDF</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="resource-card" href="downloads/power-bi-dashboards.docx" download>
+          <div class="resource-icon icon-docx">📄</div>
+          <div class="resource-body">
+            <strong>Power BI Dashboards</strong>
+            <span>The Power BI training material from Days 2 and 3.</span>
+          </div>
+          <span class="badge">DOCX</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="resource-card" href="downloads/preparing-bocsar-lga-dataset-as-semantic-model.docx" download>
+          <div class="resource-icon icon-docx">📄</div>
+          <div class="resource-body">
+            <strong>Preparing the BOCSAR LGA Dataset as a Semantic Model</strong>
+            <span>Step-by-step guide to transforming the BOCSAR LGA file so it's ready for dashboards.</span>
+          </div>
+          <span class="badge">DOCX</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="resource-card" href="downloads/privacy-in-practice.docx" download>
+          <div class="resource-icon icon-docx">📄</div>
+          <div class="resource-body">
+            <strong>Privacy in Practice</strong>
+            <span>The OAIC Privacy in Practice course as a Word doc — useful for reference.<br>
+            <strong>Tip:</strong> complete the training online at oaic.gov.au to receive your certificate.</span>
+          </div>
+          <span class="badge">DOCX</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="resource-card" href="downloads/service-mapping.pbix" download>
+          <div class="resource-icon icon-pbix">📊</div>
+          <div class="resource-body">
+            <strong>Service Mapping — Power BI File</strong>
+            <span>The Power BI dashboards we built together during the sessions.</span>
+          </div>
+          <span class="badge">PBIX</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="resource-card" href="downloads/service-mapping.xlsx" download>
+          <div class="resource-icon icon-xlsx">📊</div>
+          <div class="resource-body">
+            <strong>Service Mapping — Excel File</strong>
+            <span>Sample data in Excel format, for use if you're working without the Semantic Model.</span>
+          </div>
+          <span class="badge">XLSX</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="resource-card" href="downloads/using-the-service-mapping-power-bi-and-excel-files.docx" download>
+          <div class="resource-icon icon-docx">📄</div>
+          <div class="resource-body">
+            <strong>Using the Service Mapping Power BI &amp; Excel Files</strong>
+            <span>How to connect the Service Mapping Power BI file to the Excel file as its data source.</span>
+          </div>
+          <span class="badge">DOCX</span>
+        </a>
+      </li>
+
+    </ul>
+
+  </main>
+
+  <footer>
+    Resources provided by the JRNSW Data Hub &nbsp;·&nbsp; Macleay &amp; Partners Data Fundamentals Training
+  </footer>
 
 </body>
 </html>
