@@ -1,4 +1,4 @@
-# Learning the Macleay & Partners Data Foundamentals training
+# Learning the Macleay & Partners Data Fundamentals training
 A space for Learning the Macleay's Data Training Resources
 
 Training resources developed and provided by the JRNSW Data Hub
